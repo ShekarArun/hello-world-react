@@ -9,6 +9,8 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentGreetComponent from './components/ParentGreetComponent'
 import LoginLogoutGreeting from './components/LoginLogoutGreeting'
+import NameList from './components/NameList'
+import PeopleAttributesList from './components/PeopleAttributesList'
 
 function App () {
   return (
@@ -25,6 +27,8 @@ function App () {
       <EventBind />
       <ParentGreetComponent />
       <LoginLogoutGreeting />
+      <NameList />
+      <PeopleAttributesList />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
