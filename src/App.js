@@ -4,6 +4,8 @@ import Welcome from './components/Welcome'
 import GreetWithoutJSX from './components/GreetWithoutJSX'
 import StateHandlingMessage from './components/StateHandlingMessage'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 function App () {
   return (
@@ -15,6 +17,8 @@ function App () {
       <GreetWithoutJSX />
       <StateHandlingMessage />
       <Counter />
+      <FunctionClick />
+      <ClassClick />
     </div>
   )
 }
