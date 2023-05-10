@@ -3,6 +3,7 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import GreetWithoutJSX from './components/GreetWithoutJSX'
 import StateHandlingMessage from './components/StateHandlingMessage'
+import Counter from './components/Counter'
 
 function App () {
   return (
@@ -13,6 +14,7 @@ function App () {
       <Welcome name='Neumann' />
       <GreetWithoutJSX />
       <StateHandlingMessage />
+      <Counter />
     </div>
   )
 }
