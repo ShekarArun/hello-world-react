@@ -15,6 +15,7 @@ import ClassStyling from './components/ClassStyling'
 import InlineCSSStyling from './components/InlineCSSStyling'
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import Form from './components/Form'
 
 function App () {
   return (
@@ -37,6 +38,8 @@ function App () {
       <InlineCSSStyling />
       <h1 className='error'>This is an example of a CSS class imported from a regular stylesheet</h1>
       <h1 className={styles.success}>This is an example of a CSS module based stylesheet</h1>
+
+      <Form />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
