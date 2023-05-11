@@ -11,6 +11,7 @@ import ParentGreetComponent from './components/ParentGreetComponent'
 import LoginLogoutGreeting from './components/LoginLogoutGreeting'
 import NameList from './components/NameList'
 import PeopleAttributesList from './components/PeopleAttributesList'
+import ClassStyling from './components/ClassStyling'
 
 function App () {
   return (
@@ -29,6 +30,7 @@ function App () {
       <LoginLogoutGreeting />
       <NameList />
       <PeopleAttributesList />
+      <ClassStyling />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
