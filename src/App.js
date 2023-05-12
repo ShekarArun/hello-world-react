@@ -16,6 +16,7 @@ import InlineCSSStyling from './components/InlineCSSStyling'
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form'
+import LifecycleA from './components/LifecycleA'
 
 function App () {
   return (
@@ -40,6 +41,7 @@ function App () {
       <h1 className={styles.success}>This is an example of a CSS module based stylesheet</h1>
 
       <Form />
+      <LifecycleA />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
