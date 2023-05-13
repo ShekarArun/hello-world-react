@@ -17,6 +17,7 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
+import Table from './components/Table'
 
 function App () {
   return (
@@ -42,6 +43,7 @@ function App () {
 
       <Form />
       <LifecycleA />
+      <Table />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
