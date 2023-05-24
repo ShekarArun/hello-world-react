@@ -19,6 +19,8 @@ import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
 import Table from './components/Table'
 import ParentComp from './components/ParentComp'
+import RefDemo from './components/RefDemo'
+import FocusInput from './components/FocusInput'
 
 function App () {
   return (
@@ -47,6 +49,8 @@ function App () {
       <Table />
 
       <ParentComp />
+      <RefDemo />
+      <FocusInput />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
