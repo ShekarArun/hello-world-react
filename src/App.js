@@ -22,6 +22,7 @@ import ParentComp from './components/ParentComp'
 import RefDemo from './components/RefDemo'
 import FocusInput from './components/FocusInput'
 import FRParentInput from './components/FRParentInput'
+import PortalDemo from './components/PortalDemo'
 
 function App () {
   return (
@@ -53,6 +54,7 @@ function App () {
       <RefDemo />
       <FocusInput />
       <FRParentInput />
+      <PortalDemo />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
