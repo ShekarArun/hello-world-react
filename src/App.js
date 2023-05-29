@@ -23,6 +23,8 @@ import RefDemo from './components/RefDemo'
 import FocusInput from './components/FocusInput'
 import FRParentInput from './components/FRParentInput'
 import PortalDemo from './components/PortalDemo'
+import ClickCounter from './components/ClickCounter'
+import HoverCounter from './components/HoverCounter'
 
 function App () {
   return (
@@ -55,6 +57,9 @@ function App () {
       <FocusInput />
       <FRParentInput />
       <PortalDemo />
+
+      <ClickCounter name='Arun' />
+      <HoverCounter />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
