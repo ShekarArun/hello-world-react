@@ -25,6 +25,9 @@ import FRParentInput from './components/FRParentInput'
 import PortalDemo from './components/PortalDemo'
 import ClickCounter from './components/ClickCounter'
 import HoverCounter from './components/HoverCounter'
+import CounterComp from './components/CounterComp'
+import ClickCounterTwo from './components/ClickCounterTwo'
+import HoverTwo from './components/HoverTwo'
 
 function App () {
   return (
@@ -60,6 +63,16 @@ function App () {
 
       <ClickCounter name='Arun' />
       <HoverCounter />
+
+      <CounterComp
+        render={(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />)}
+      />
+      <CounterComp
+        render={(count, incrementCount) => (
+          <HoverTwo count={count} incrementCount={incrementCount} />
+        )}
+      />
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
