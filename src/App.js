@@ -28,6 +28,8 @@ import HoverCounter from './components/HoverCounter'
 import CounterComp from './components/CounterComp'
 import ClickCounterTwo from './components/ClickCounterTwo'
 import HoverTwo from './components/HoverTwo'
+import ComponentLevelThree from './components/ComponentLevelThree'
+import {UserProvider} from './components/userContext'
 
 function App () {
   return (
@@ -73,6 +75,10 @@ function App () {
           <HoverTwo count={count} incrementCount={incrementCount} />
         )}
       />
+
+      <UserProvider value='Arun'>
+        <ComponentLevelThree />
+      </UserProvider>
 
       {/* Random padding so that I don't have to reach for the bottom of the screen and accidentally hover on the taskbar */}
       <br />
